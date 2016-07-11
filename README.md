@@ -2,12 +2,6 @@
 
 *A mostly reasonable approach to JavaScript*
 
-Other Style Guides
- - [ES5](es5/)
- - [React](react/)
- - [CSS & Sass](https://github.com/airbnb/css)
- - [Ruby](https://github.com/airbnb/ruby)
-
 ## Table of Contents
 
   1. [Types](#types)

@@ -31,7 +31,6 @@
   1. [jQuery](#jquery)
   1. [ECMAScript 5 Compatibility](#ecmascript-5-compatibility)
   1. [ECMAScript 6 Styles](#ecmascript-6-styles)
-  1. [Testing](#testing)
 
 ## Types
 
@@ -2491,28 +2490,6 @@
 1. [Let and Const](#references)
 1. [Iterators and Generators](#iterators-and-generators)
 1. [Modules](#modules)
-
-**[⬆ back to top](#table-of-contents)**
-
-## Testing
-
-  <a name="testing--yup"></a><a name="28.1"></a>
-  - [28.1](#esting--yup) **Yup.**
-
-    ```javascript
-    function foo() {
-      return true;
-    }
-    ```
-
-  <a name="testing--for-real"></a><a name="28.2"></a>
-  - [28.2](#testing--for-real) **No, but seriously**:
-   - Whichever testing framework you use, you should be writing tests!
-   - Strive to write many small pure functions, and minimize where mutations occur.
-   - Be cautious about stubs and mocks - they can make your tests more brittle.
-   - We primarily use [`mocha`](https://www.npmjs.com/package/mocha) at Airbnb. [`tape`](https://www.npmjs.com/package/tape) is also used occasionally for small, separate modules.
-   - 100% test coverage is a good goal to strive for, even if it's not always practical to reach it.
-   - Whenever you fix a bug, _write a regression test_. A bug fixed without a regression test is almost certainly going to break again in the future.
 
 **[⬆ back to top](#table-of-contents)**
 
